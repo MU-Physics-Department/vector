@@ -13,7 +13,7 @@ class Vector:
     
     
     def __str__(self):
-        return "x component: %f, y component: %f, z component: %f" % (self.x, self.y, self.z)
+        return "x component: {}, y component: {}, z component: {}".format(self.x, self.y, self.z)
 
 
 print("Vector module is imported successfully.")
