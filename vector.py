@@ -10,6 +10,10 @@ class Vector:
 
     def __sub__(self, other):
         return Vector(self.x - other.x, self.y - other.y, self.z - other.z)
+    
+    
+    def __str__(self):
+        return "x component: %f, y component: %f, z component: %f" % (self.x, self.y, self.z)
 
 
 print("Vector module is imported successfully.")
